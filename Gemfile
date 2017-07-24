@@ -1,6 +1,5 @@
 source "https://rubygems.org"
 
-ruby "2.4.1"
 
 gem "coffee-rails", "~> 4.1.0"
 gem "jquery-rails"
@@ -17,9 +16,9 @@ group :development, :test do
   gem "rspec-rails", "~> 3.0"
   gem "shoulda-matchers"
   gem "spring"
-  gem "web-console", "~> 2.0"
 end
 
+gem "web-console", "~> 2.0", group: :development
 group :test do
   gem "capybara"
   gem "database_cleaner"
