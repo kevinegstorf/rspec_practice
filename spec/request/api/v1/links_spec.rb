@@ -1,6 +1,6 @@
 require "rails_helper"
 
-RSpec.describe "GET /api/v1/links" do
+RSpec.describe "GET /api/v1/links", type: :request do
   it "returns a list of all links, hottest first" do
     coldest_link = create(:link)
     hottest_link = create(:link, upvotes: 2)
@@ -20,7 +20,7 @@ RSpec.describe "GET /api/v1/links" do
   end
 end
 
-RSpec.describe "POST /api/v1/links" do
+RSpec.describe "POST /api/v1/links", type: :request do
   it "creates the link" do
     link_params = attributes_for(:link)
 
