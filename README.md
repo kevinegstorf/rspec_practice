@@ -5,4 +5,7 @@ findings in regard of RSpec testing.
 
 It is a living documentation of my RSpec knowledge.
 
-It specs come from books as Testing Rails, Rails Test Perscription and Testing with RSpec.
+It mainly comes from books as:
+- Testing Rails, 
+- Rails Test Perscription
+- Testing with RSpec.
